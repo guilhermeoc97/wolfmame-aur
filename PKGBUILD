@@ -1,11 +1,11 @@
 # Maintainer: Guilherme Oliveira de Carvalho <guilherme.oc97@outlook.com>
-# Based on the mame-git PKGBUILD by Daniel Bermond
+# Adapted from the mame-git PKGBUILD by Daniel Bermond
 
 pkgbase=wolfmame
 pkgname=('wolfmame' 'wolfmame-tools')
 pkgver=0.233
 pkgrel=1
-pkgdesc='Port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support - now optimized for MARP and speedrunning'
+pkgdesc='SDLMAME, now optimized for MARP and speedrunning'
 url='http://replay.marpirc.net/'
 license=('GPL')
 arch=('x86_64')
@@ -72,7 +72,7 @@ package_wolfmame() {
 }
 
 package_wolfmame-tools() {
-    pkgdesc='Port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support - now optimized for MARP and speedrunning (tools)'
+    pkgdesc='MAME, now optimized for MARP and speedrunning (tools)'
     depends=('sdl2' 'libutf8proc' 'flac')
     provides=('mame-tools')
     conflicts=('mame-tools')
