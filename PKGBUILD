@@ -41,7 +41,8 @@ build() {
         NOWERROR='1' \
         OPTIMIZE='2' \
         TOOLS='1' \
-        ARCHOPTS='-flifetime-dse=1'
+        ARCHOPTS='-flifetime-dse=1' \
+	SDL_INI_PATH="$HOME/.wolfmame"
 }
 
 package_wolfmame() {
