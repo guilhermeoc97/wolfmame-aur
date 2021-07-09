@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=WolfMAME Arcade Emulator
+Name[ca]=Emulador de jocs arcade WolfMAME
+Name[fr]=Emulateur arcade WolfMAME
+Name[it]=Emulatore di giochi arcade WolfMAME
+GenericName=Arcade Emulator
+GenericName[ca]=Emulador de jocs arcade
+GenericName[fr]=Emulateur arcade
+GenericName[it]=Emulatore di giochi arcade
+Comment=Play vintage arcade games using the WolfMAME emulator
+Comment[ca]=Jugueu a jocs d'arcade antics emprant l'emulador WolfMAME
+Comment[fr]=Jugueu a jocs d'arcade antics emprant l'emulador WolfMAME
+Comment[it]=Gioca ai vecchi arcade con l'emulatore WolfMAME
+Exec=wolfmame
+Icon=wolfmame
+Terminal=false
+Type=Application
+Categories=Game;Emulator;
+Keywords=Game;Emulator;Arcade;
