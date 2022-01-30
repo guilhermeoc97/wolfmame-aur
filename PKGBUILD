@@ -3,7 +3,7 @@
 
 pkgbase=wolfmame
 pkgname=('wolfmame' 'wolfmame-tools')
-pkgver=0.233
+pkgver=0.240
 pkgrel=1
 pkgdesc='SDLMAME, now optimized for MARP and speedrunning'
 url='http://replay.marpirc.net/'
@@ -15,7 +15,7 @@ source=(https://github.com/mahlemiut/wolfmame/archive/wolf${pkgver/*./}.tar.gz
         wolfmame.sh
         wolfmame.desktop
         wolfmame.svg)
-sha256sums=('442cbf629aae3f3e7cbd7a02f38d8576446f8a682c840562070aa3ff7fc7be6f'
+sha256sums=('d1fc91ef44d170ed331af0d0dd52e1ceef60ddb89038ec654c953ab995a298f0'
             '454bc344bfe6ee12666ccae4884b77a5a98f2b23df7d78a3dfa475a6322d16f4'
             '72c0664615cfd65f116ffdfb856dd5ea412a17c3bac763c3a4ec40b4648940da'
             '17c442c933d764175e4ce1de50a80c0c2ddd5d733caf09c3cd5e6ba697ac43f4')
